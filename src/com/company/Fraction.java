@@ -13,5 +13,6 @@ public class Fraction {
 
     public String toString (){
         return (Integer.toString(this.num)/Integer.toString(this.denum));
+
     }
 }
