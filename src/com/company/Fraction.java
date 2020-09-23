@@ -11,8 +11,8 @@ public class Fraction {
         this.denum = j;
     }
 
-    public String toString (){
-        return (Integer.toString(this.num)/Integer.toString(this.denum));
+    public String toString (Fraction frac){
+        return (Integer.toString(frac.num)+"/"+Integer.toString(frac.denum));
 
     }
 }
